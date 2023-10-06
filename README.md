@@ -4,7 +4,7 @@
 
 I am tasked with helping CityCorp, a fictional company, decide on the optimal locations to open three new stores in the UK. These stores will cater to Men, Women, and Children, respectively. CityCorp currently operates online and intends to expand its presence by strategically selecting the best physical locations based on trading data.
 
-My role involves using a proximity algorithm to assess the potential success of each type of store at the provided locations. To achieve this, I will need to develop a function for calculating the distance between two points based on their latitude and longitude coordinates. I will then employ this function to assign weights to each potential sale, taking into account its distance from the candidate location. Ultimately, my goal is to determine the most suitable location for each store type based on these proximity-weighted factors.
+My role was in Task 4, which involved using a proximity algorithm to assess the potential success of each type of store at the provided locations. To achieve this, I needed to develop a function for calculating the distance between two points based on their latitude and longitude coordinates. I then employed this function to assign weights to each potential sale, considering its distance from the candidate location. Ultimately, my goal was to determine the most suitable location for each store type based on these proximity-weighted factors.
 
 ## Steps
 
