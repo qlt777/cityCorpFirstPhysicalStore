@@ -30,3 +30,6 @@ To maximize the total estimated income, it was vital to ensure that the three st
 
 ## Summary
 
+![Scatter plot of where the best location for a physical store](Other/scatter.png)
+
+This is a scatter graphs of where the best physical location would be. As you can tell, it is shaped as the UK. We can already see that the first best physical location is London, with a close second somewhere in Birmingham.
