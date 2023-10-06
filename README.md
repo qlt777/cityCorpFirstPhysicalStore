@@ -8,23 +8,25 @@ My role involves using a proximity algorithm to assess the potential success of 
 
 ## Steps
 
-**Part 1: Implement the Haversine Formula**
-To begin, we need to create a Python function that converts latitude and longitude coordinates into distances using the Haversine formula. You can find details of this formula [here](https://www.movable-type.co.uk/scripts/latlong.html). This function should use appropriate trigonometric functions, such as `atan2`. It's essential to test this function with known values to ensure accuracy. You can use the online tool provided in the link above to verify your implementation.
+**Part 1: Implementing the Haversine Formula**
 
-**Part 2: Calculate Estimated Income**
-Once we have the distance calculation function ready, we will use it to calculate the estimated income for each store location and type of customer (Men, Women, Children). To do this, we will need a file, such as "AccountLocation.xlsx" (or "Backup.xlsx" if the former is unavailable). Ensure that you convert latitude and longitude values from the file into floating-point numbers.
-The code should:
-- Read the location and type-based values from the Excel file.
-- Calculate the probability of each customer visiting each store location based on distance.
-- Multiply the value by the type for each location by the probability of a customer visiting that location.
-- Sum the income estimates over all customer accounts.
-The result should be saved in a file called "Income.xlsx," where each row represents a possible store location from "locations.xlsx." The first column should contain the location name, and columns two to four should contain the estimated income for Men, Women, and Children, respectively.
+To kick off this project, I needed to create a Python function capable of converting latitude and longitude coordinates into distances using the Haversine formula. I found detailed information about this formula on a [helpful webpage](https://www.movable-type.co.uk/scripts/latlong.html). For the implementation, I utilized suitable trigonometric functions, including atan2. To ensure the accuracy of my function, I performed rigorous testing using known values. I even used the online tool provided in the link above to validate my implementation.
 
-**Part 3: Find Optimal Store Locations**
-To maximize total estimated income, we need to ensure that the three stores are located in different places. You can achieve this by:
-- Reading the "Income.xlsx" file to get the income estimates for each store location.
-- Implementing a strategy (e.g., greedy algorithm or optimization algorithm) to select three distinct store locations that maximize the total estimated income.
-- Printing a message to the console indicating where the three stores should be located for maximum income.
+**Part 2: Calculating Estimated Income**
+
+With the distance calculation function ready, the next step was to estimate the income for each store location, considering different customer types (Men, Women, Children). I relied on data from an Excel file, "AccountLocation.xlsx" (or "Backup.xlsx" if the former wasn't available). It was crucial to convert latitude and longitude values from this file into floating-point numbers. The code for this part encompassed the following steps:
+1. Reading location and type-based values from the Excel file.
+2. Calculating the probability of a customer visiting each store location based on the distance.
+3. Multiplying the value by the customer type for each location by the probability of a customer visiting that location.
+4. Summing up the income estimates over all customer accounts.
+5. The final result was stored in a file named "Income.xlsx." In this file, each row represented a possible store location from the "locations.xlsx" data. The first column contained the location name, while columns two to four held the estimated income for Men, Women, and Children, respectively.
+
+**Part 3: Finding Optimal Store Locations**
+
+To maximize the total estimated income, it was vital to ensure that the three stores were strategically placed in different areas. I accomplished this task by:
+1. Reading the "Income.xlsx" file to access the income estimates for each store location.
+2. Implementing a selection strategy, which could be a greedy algorithm or an optimization algorithm. This strategy aimed to choose three distinct store locations that would maximize the total estimated income.
+3. Finally, I printed a message to the console indicating the optimal locations for the three stores to achieve the highest income.
 
 ## Summary
 
