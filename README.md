@@ -6,7 +6,7 @@ I am tasked with helping CityCorp, a fictional company, decide on the optimal lo
 
 My role was in Task 4, which involved using a proximity algorithm to assess the potential success of each type of store at the provided locations. To achieve this, I needed to develop a function for calculating the distance between two points based on their latitude and longitude coordinates. I then employed this function to assign weights to each potential sale, considering its distance from the candidate location. Ultimately, my goal was to determine the most suitable location for each store type based on these proximity-weighted factors.
 
-## Steps
+## Task 4 -  Instructions
 
 **Part 1: Implementing the Haversine Formula**
 
